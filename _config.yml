@@ -10,15 +10,15 @@ title: metalimits
 
 # Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
 # Avatar for light mode site
-lightavatar: /assets/images/light_bauhaus_logo.png
+lightavatar:
 # Avatar for dark mode site
-darkavatar: /assets/images/dark_bauhaus_logo.png
+darkavatar:
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: All things data!
+tagline: Monthly bookkeeping
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Minimalistic Jekyll theme that automatically supports dark and light modes for blogs
+description: Friendly, reliable monthly bookkeeping for small businesses and self-employed people using QuickBooks, Zoho Books, and Xero.
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: https://metalimits.com
@@ -27,13 +27,13 @@ url: https://metalimits.com
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: /meta-web
+baseurl: ""
 
 # global author information
-author: meta
+author: Meta Limits
 
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_bauhaus_logo.png
+logo:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -42,12 +42,7 @@ permalink: /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  # email: no@domain.com
-  # facebook:
-  # github: andrewhwanpark/brutalist-blog
-  # instagram: andrewhwanpark
-  # linkedin: andrewhwanpark
-  rss: # just type anything here for a working RSS icon
+  email: hello@metalimits.com
   twitter: prasannaj
 
 plugins:
@@ -55,4 +50,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-theme: jekyll-theme-slate
+exclude:
+  - 821486937_29407727232148052_572375168372914582_n.jpg
+  - README.md
+  - vendor
