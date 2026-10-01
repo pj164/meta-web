@@ -92,6 +92,10 @@ body {
   color: var(--ink);
 }
 
+strong {
+  font-weight: 600;
+}
+
 h1,
 h2,
 h3,
@@ -150,8 +154,8 @@ a:focus-visible {
 
 .navbar-brand {
   font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.04em;
+  font-weight: 600;
+  letter-spacing: -0.025em;
 }
 
 .navbar-nav {
@@ -185,10 +189,10 @@ a:focus-visible {
 
 h1,
 .page-title {
-  font-size: clamp(2.6rem, 6vw, 4.4rem);
-  font-weight: 700;
-  letter-spacing: -0.045em;
-  line-height: 0.95;
+  font-size: clamp(2.5rem, 5.5vw, 4.1rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.02;
 }
 
 .page-title {
@@ -197,14 +201,14 @@ h1,
 }
 
 h2 {
-  font-size: 1.65rem;
-  letter-spacing: -0.03em;
-  font-weight: 700;
+  font-size: 1.55rem;
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
 .page-body > p:first-child {
-  font-size: 1.2rem;
-  line-height: 1.45;
+  font-size: 1.1rem;
+  line-height: 1.55;
   max-width: 38rem;
 }
 
@@ -218,8 +222,8 @@ h2 {
 
 .hero-copy p {
   max-width: 36rem;
-  font-size: 1.2rem;
-  line-height: 1.45;
+  font-size: 1.1rem;
+  line-height: 1.55;
   margin: 1.25rem 0 1.5rem;
 }
 
@@ -230,7 +234,7 @@ h2 {
   padding: 0.7rem 1rem;
   border: 2px solid var(--ink);
   border-radius: 0;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   line-height: 1.2;
 }
@@ -266,8 +270,8 @@ h2 {
   padding: 1.25rem 1.35rem 0.4rem;
   font-variant-numeric: tabular-nums lining-nums;
   font-size: clamp(1.35rem, 2.4vw, 1.85rem);
-  font-weight: 700;
-  letter-spacing: -0.03em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 .tie-out div {
@@ -354,7 +358,7 @@ h2 {
 }
 
 .sheet dt {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .sheet dd {
@@ -382,8 +386,8 @@ h2 {
 .tier-count {
   margin: 0;
   font-size: clamp(2.6rem, 5vw, 3.6rem);
-  font-weight: 700;
-  letter-spacing: -0.05em;
+  font-weight: 600;
+  letter-spacing: -0.035em;
   line-height: 1;
   font-variant-numeric: tabular-nums lining-nums;
 }
@@ -486,7 +490,7 @@ h2 {
   position: absolute;
   left: 0;
   top: 0.95rem;
-  font-weight: 700;
+  font-weight: 600;
   font-variant-numeric: tabular-nums lining-nums;
 }
 
@@ -525,7 +529,7 @@ h2 {
   flex: 0 0 auto;
   margin: 0;
   color: var(--muted);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .service-matrix {
@@ -653,7 +657,7 @@ h2 {
 
 .service-details summary {
   padding: 1rem 1.15rem;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -746,7 +750,7 @@ h2 {
   flex: 0 0 auto;
   margin: 0;
   color: var(--muted);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .process-steps,
@@ -791,7 +795,7 @@ h2 {
   left: 1.1rem;
   color: var(--correction);
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 600;
   font-variant-numeric: tabular-nums lining-nums;
 }
 
